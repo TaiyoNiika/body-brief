@@ -6,7 +6,7 @@ description: Install or update the Body Brief scripts into ~/body-brief from one
 Pinned source (filled in at release time; refuse to run while these are placeholders):
 
 - Raw base: `https://raw.githubusercontent.com/TaiyoNiika/body-brief` (for GitHub: `https://raw.githubusercontent.com/<owner>/<repo>`)
-- Commit: `{{COMMIT_SHA}}` (full 40-character commit SHA — never a branch or tag name)
+- Commit: `c1e3e418f4cccf0b78e1b6088879b1989e8c0fed` (full 40-character commit SHA — never a branch or tag name)
 
 Steps:
 
