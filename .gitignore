@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+# never commit runtime files
+token.json
+token.lock
+oauth_state.json
+client.json
+auth_link.html
+*.env
+.env*

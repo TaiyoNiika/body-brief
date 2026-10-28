@@ -1,0 +1,4 @@
+- Service: WHOOP API v2 (https://developer.whoop.com/api). OAuth server https://api.prod.whoop.com/oauth/oauth2/. Each owner uses their own WHOOP developer app (Sandbox tier is enough for one person).
+- Scripts live in ~/body-brief/whoop/ after install (whoop_auth.py, whoop_fetch.py). Token: ~/.secrets/whoop/ (0700). Data: ~/health/whoop/ (0700), latest file latest.json.
+- Daily dated files are pruned after WHOOP_RETENTION_DAYS (default 30). latest.json and tokens are never pruned.
+- fetch exit codes: 0 scored, 1 not scored yet, 2 config, 3 re-authorize, 4 API error.
